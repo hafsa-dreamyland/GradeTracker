@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation_map"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="it.progmob.gradetracker.MainFragment"
+        android:label="MainFragment" >
+        <action
+            android:id="@+id/action_mainFragment_to_insertGradeFragment"
+            app:destination="@id/insertGradeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/insertGradeFragment"
+        android:name="it.progmob.gradetracker.InsertGradeFragment"
+        android:label="InsertGradeFragment" >
+        <action
+            android:id="@+id/action_insertGradeFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+</navigation>

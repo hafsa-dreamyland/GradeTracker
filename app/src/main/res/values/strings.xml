@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GradeTracker</string>
+    <string name="action_main">Main Page</string>
+    <string name="action_insert">Insert Grade</string>
+    <string name="insert_update_grade">Insert/Update Grade</string>
+    <string name="weighted_average_0_0">Weighted Average: 0.0</string>
+    <string name="student_name">Student Name</string>
+    <string name="student_id">Student ID</string>
+</resources>

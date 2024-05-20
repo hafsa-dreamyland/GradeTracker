@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "240925208618",
+    "project_id": "grade-tracker-app-1",
+    "storage_bucket": "grade-tracker-app-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240925208618:android:804e0189a660232b761353",
+        "android_client_info": {
+          "package_name": "it.progmob.gradetracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqxXAUsLqZsI-10BBaELKmiyfNFuoMiLs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
